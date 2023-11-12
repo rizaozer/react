@@ -16,14 +16,7 @@ const Medication = () => {
   return (
     <Box m="20px">
       <Header title="Add Medication" subtitle="Insert Medication" />
-      <Autocomplete
-        id="grouped-demo"
-        options={options.sort((a, b) => -b.firstLetter.localeCompare(a.firstLetter))}
-        groupBy={(option) => option.firstLetter}
-        getOptionLabel={(option) => option.title}
-        sx={{ width: 300 }}
-        renderInput={(params) => <TextField {...params} label="With categories" />}
-      />
+
     </Box>
   );
 };
