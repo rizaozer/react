@@ -1,0 +1,12 @@
+.back-to-login {
+    color: white;
+    font-weight: 600;
+}
+
+.forgot-password-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
